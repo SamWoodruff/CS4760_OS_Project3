@@ -1,0 +1,39 @@
+commit 754cd14f97887a69a7aee7a3f045fe5b59027fcf
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Thu Mar 21 14:10:52 2019 -0500
+
+    Used semaphore in palin
+    from semaphore.h
+
+commit fcd2243a4daf8c4eba00642d0d7f07d39748fb65
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Wed Mar 13 15:43:48 2019 -0500
+
+    commit #4
+    Added 25 seconds and ctrl+c handler
+    All children will be cleared
+    and shared mem will be cleared
+
+commit 8524e0bfcad488af7bb998de9b3de4b16d0b6b8d
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Wed Mar 13 12:55:25 2019 -0500
+
+    Commit #3
+    Created critical sections where files are written to
+
+commit 22bc5199ece8be5aa5179effcb9dda6c33a76a83
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Sat Mar 9 15:08:45 2019 -0600
+
+    Commit #2 3/9/19
+    Created loop to fork off proper amount of execs
+    Implemented function in palin.c to reverse string
+    Reversed string is compared with original to check if palindrome
+
+commit d3e7e65e1ed9c6781fef14126cbd4cf0e1ecd09a
+Author: samuel woodruff <woodruff@hoare7.cs.umsl.edu>
+Date:   Sat Mar 9 08:56:54 2019 -0600
+
+    Commit #1 3/9/19
+    Read file contents into shared memory
+    and tested for access in children
